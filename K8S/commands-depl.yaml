@@ -27,8 +27,4 @@ spec:
   ports:
   - name: commandsservice
     port: 80
-<<<<<<< HEAD
     targetPort: 80
-=======
-    targetPort: 80
->>>>>>> 620a9a3215708d96c78f0fa48610ee89b5788845
