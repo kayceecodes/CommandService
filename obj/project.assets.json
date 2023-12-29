@@ -1188,9 +1188,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kayc/repos/commandservice/CommandsService.csproj",
-      "projectName": "CommandsService",
-      "projectPath": "/home/kayc/repos/commandservice/CommandsService.csproj",
+      "projectUniqueName": "/home/kayc/repos/commandservice/commandservice.csproj",
+      "projectName": "commandservice",
+      "projectPath": "/home/kayc/repos/commandservice/commandservice.csproj",
       "packagesPath": "/home/kayc/.nuget/packages/",
       "outputPath": "/home/kayc/repos/commandservice/obj/",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hyqYtTrUkCt3u3UrlBvJLzUMv6h940oNmeVxvuVbhj50XRYJOPGnT5eyST2PqaG4x0c4mVyCdRI7bqoo78+XOA==",
+  "dgSpecHash": "HeuATuuJ39cvwoFWenmi43AxlcuHMe1ER5McgkTtlYei2F/mlbM4OBNgGRXYJgzLL2oKkOxQ456gCx2vq1UIaQ==",
   "success": true,
-  "projectFilePath": "/home/kayc/repos/commandservice/CommandsService.csproj",
+  "projectFilePath": "/home/kayc/repos/commandservice/commandservice.csproj",
   "expectedPackageFiles": [
     "/home/kayc/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/kayc/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
