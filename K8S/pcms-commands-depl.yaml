@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pcms-commands-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pcms-commandservice
+  template:
+    metadata:
+      labels:
+        app: pcms-commandservice
+    spec:
+      containers:
+        - name: pcms-commandservice
+          image: kayceecode/pcms-commandservice
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pcms-commands-clusterip-serv
+spec:
+  type: ClusterIP
+  selector:
+    app: pcms-commandservice
+  ports:
+  - name: pcms-commandservice
+    port: 81
+    targetPort: 81
